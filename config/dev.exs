@@ -3,7 +3,7 @@ import Config
 # Configure your database
 config :remote, Remote.Repo,
   username: "postgres",
-  password: "NV47H13NDANI123",
+  password: "yourpassword",
   hostname: "localhost",
   database: "remote_dev",
   stacktrace: true,
