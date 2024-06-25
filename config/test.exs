@@ -7,7 +7,7 @@ import Config
 # Run `mix help test` for more information.
 config :remote, Remote.Repo,
   username: "postgres",
-  password: "postgres",
+  password: "password",
   hostname: "localhost",
   database: "remote_test#{System.get_env("MIX_TEST_PARTITION")}",
   pool: Ecto.Adapters.SQL.Sandbox,
